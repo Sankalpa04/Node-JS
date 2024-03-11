@@ -9,6 +9,7 @@ mongoose.connect('mongodb://localhost:27017/Practise').then(()=>{
 const userSchema =  new mongoose.Schema ({
     "name" : String,
     "age" : Number,
+    "email": String
 })
 
 
